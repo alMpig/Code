@@ -11,8 +11,8 @@ class Xiaojiejie extends Component{
             list:['基础按摩','精油推背'],     //服务列表
             isShow:true
         }
-        this.toToggole = this.toToggole.bind(this);
-    }
+        this.toToggole = this.toToggole.bind(this); //性能
+    } 
     render(){
         return  (
             <Fragment>
